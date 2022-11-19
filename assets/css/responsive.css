@@ -1,0 +1,76 @@
+@media all and (max-width:992px) {
+  .menu-items{
+    display: none;
+   position:absolute;
+   width: 100%;
+   left:0;
+   top:100%;
+   background: blue;
+  padding: 2rem 0;
+  }
+  .menu-items .menu ul{
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu ul li a{
+    color:aliceblue;
+  }
+  .menu-icon{
+    display: block;
+  }
+  /*banner area*/
+  .right-side{
+    margin-top:5rem;
+  }
+  /*passion area*/
+  .passion-single-row:nth-child(odd) .col-md-6:last-child{
+  order: -1;
+
+  }
+}
+@media all and (max-width:570px) {
+   .signup{
+    display:none;
+   }
+   .button ul{
+    display: none;
+   }
+   .button ul .menu-icon{
+    display: block!important;
+   }
+   /***banner area*/
+   .right-side{
+   text-align: center;
+  }
+  /**passion area**/
+  .section-title h2{
+    font-size: 4rem;
+  }
+  .section-title p{
+    font-size:1.4rem;
+  }
+  .payment-image img{
+    width: 100%;
+    margin: auto;
+    margin:1rem 2rem;
+    text-align: center;
+  }
+}
+@media all and (max-width:480px) {
+  .left-side h1{
+    font-size:4rem;
+  }
+  .email {
+    width: 100%;
+    max-width: 40rem;
+  }
+  .bg-primary.get-button {
+    max-width: 40rem;
+    width: 100%;
+    margin-top: .5rem;
+  }
+  .service-area{
+    padding:0 1rem;
+  }
+ 
+}
